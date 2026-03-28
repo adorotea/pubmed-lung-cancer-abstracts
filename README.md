@@ -53,6 +53,7 @@ print(type(df.iloc[0]['keywords'])) # Output: <class 'list'>
 
 If you find this dataset useful for your research, please cite the associated Master's thesis:
 
+```bibtex
 @mastersthesis{dorotea2026incorporating,
   author  = "Alexandre Mestre dos Santos Aleixo Dorotea",
   title   = "Incorporating medical free text into data-driven support for lung cancer multidisciplinary team meetings",
