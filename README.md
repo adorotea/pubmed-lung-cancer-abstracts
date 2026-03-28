@@ -47,3 +47,16 @@ df['keywords'] = df['keywords'].apply(ast.literal_eval)
 print(df.iloc[0]['abstract'])
 print(df.iloc[0]['keywords'])
 print(type(df.iloc[0]['keywords'])) # Output: <class 'list'>
+
+## Citation
+
+If you find this dataset useful for your research, please cite the associated Master's thesis:
+
+@mastersthesis{dorotea2026incorporating,
+  author  = "Alexandre Mestre dos Santos Aleixo Dorotea",
+  title   = "Incorporating medical free text into data-driven support for lung cancer multidisciplinary team meetings",
+  school  = "NOVA School of Science and Technology",
+  year    = "2026",
+  address = "Caparica, Portugal",
+  note    = "Adviser: Filipa Valdeira, Co-adviser: Prof. Cláudia Soares"
+}
