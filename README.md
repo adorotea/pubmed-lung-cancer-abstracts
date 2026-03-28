@@ -57,7 +57,6 @@ If you find this dataset useful for your research, please cite the associated Ma
   title   = "Incorporating medical free text into data-driven support for lung cancer multidisciplinary team meetings",
   school  = "NOVA School of Science and Technology",
   year    = "2026",
-  address = "Caparica, Portugal",
   note    = "Adviser: Filipa Valdeira, Co-adviser: Prof. Cláudia Soares"
 }
 
