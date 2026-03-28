@@ -47,6 +47,7 @@ df['keywords'] = df['keywords'].apply(ast.literal_eval)
 print(df.iloc[0]['abstract'])
 print(df.iloc[0]['keywords'])
 print(type(df.iloc[0]['keywords'])) # Output: <class 'list'>
+```
 
 ## Citation
 
@@ -60,3 +61,5 @@ If you find this dataset useful for your research, please cite the associated Ma
   address = "Caparica, Portugal",
   note    = "Adviser: Filipa Valdeira, Co-adviser: Prof. Cláudia Soares"
 }
+
+
