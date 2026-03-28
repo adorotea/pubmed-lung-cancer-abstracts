@@ -37,16 +37,14 @@ You can easily load and preprocess this dataset using Python and `pandas`. Since
 import pandas as pd
 import ast
 
-# Load the dataset
 df = pd.read_csv("pubmed_lung_cancer_abstracts_and_keywords.csv")
 
 # Convert the string representation of lists back into actual Python lists
 df['keywords'] = df['keywords'].apply(ast.literal_eval)
 
-# Display the first row and verify the type
 print(df.iloc[0]['abstract'])
 print(df.iloc[0]['keywords'])
-print(type(df.iloc[0]['keywords'])) # Output: <class 'list'>
+print(type(df.iloc[0]['keywords']))
 ```
 
 ## Citation
